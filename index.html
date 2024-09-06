@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QUICK MEDHUB</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+        
+    <h1>QUICK MEDHUB</h1>
+    <nav>
+        <img src="logo.jpg">
+        <ul class="main-btn">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="jobs.html">Job Listings</a></li>
+        </ul>
+    </nav>
+</header>
+ <section id="home">
+  
+  </div>
+  <div class="section-container">
+    <div class="section-box" onclick="showHospitals('east-delhi')">
+      <h2>East Delhi Hospitals</h2>
+    </div>
+    <div class="section-box" onclick="showHospitals('west-delhi')">
+      <h2>West Delhi Hospitals</h2>
+    </div>
+    <div class="section-box" onclick="showHospitals('south-delhi')">
+      <h2>South Delhi Hospitals</h2>
+    </div>
+    <div class="section-box" onclick="showHospitals('north-delhi')">
+      <h2>North Delhi Hospitals</h2>
+    </div>
+  </div>
+</section>
+
+
+  <div id="hospital-list" class="hospital-list">
+    <h2 id="hospital-region-title"></h2>
+    <ul id="hospital-items"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
