@@ -79,6 +79,7 @@ nav ul li a {
   flex-wrap: wrap;
   padding: 40px;
   height: 800px;
+  background-image: url(delhi\ hospitals.png);
 }
 
 .section-box {
@@ -90,7 +91,11 @@ nav ul li a {
   cursor: pointer;
   border-radius: 10px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
 
+.section-box:hover{
+  transform: scale(1.05);
 }
 .section-box h2 {
   color: #00fbfff0;
@@ -113,4 +118,64 @@ nav ul li a {
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  background-color: #0a0a0a;
+  color: white;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.emergency-div {
+  width: 25%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin: 0 25px;
+}
+
+.emergency-div:nth-child(3n) {
+  margin-right: 0;
+}
+
+.prescription-section {
+  display: none;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.prescription-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.prescription-btn:hover {
+  background-color: #0056b3;
+}
+footer {
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }

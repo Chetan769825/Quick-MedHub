@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Hospital Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.emergency-div {
+    width: 25%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 0 25px;
+}
+
+.emergency-div:nth-child(3n) {
+    margin-right: 0;
+}
+
+.prescription-section {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.prescription-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prescription-btn:hover {
+    background-color: #0056b3;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Emergency Hospital Finder</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="emergency-div">
+                <h2>Heart Attack</h2>
+                <p><strong>Definition:</strong> Sudden blockage of blood flow to the heart muscle...</p>
+                <p><strong>Precautions:</strong></p>
+                <ul>
+                    <li>Call emergency services immediately.</li>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div class="emergency-div">
+                <h2>Stroke</h2>
+                <p><strong>Definition:</strong> Rapid loss of brain function due to interrupted blood flow...</p>
+                <p><strong>Precautions:</strong></p>
+                <ul>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div class="emergency-div">
+                <h2>Severe Bleeding</h2>
+                <p><strong>Definition:</strong> Uncontrolled loss of blood from a wound...</p>
+                <p><strong>Precautions:</strong></p>
+                <ul>
+                    <li>...</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="emergency-div">
+                <h2>Poisoning</h2>
+                <p><strong>Definition:</strong> Ingestion or exposure to harmful substances...</p>
+                <p><strong>Precautions:</strong></p>
+                <ul>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div class="emergency-div">
+                <h2>Seizures</h2>
+                <p><strong>Definition:</strong> Sudden uncontrolled electrical activity in the brain...</p>
+                <p><strong>Precautions:</strong></p>
+                <ul>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div class="emergency-div">
+                <h2>Cardiac Arrest</h2>
+                <p><strong>Definition:</strong> Complete cessation of heart function...</p>
+                <p><strong>Precautions:</strong></p>
+                <ul>
+                    <li>...</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="emergency-div">
+                <h2>Brain Hemorrhage</h2>
+                <p><strong>Definition:</strong> Bleeding within the brain tissue...</p>
+                <p><strong>Precautions:</strong></p>
+                <ul>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div class="emergency-div">
+                <h2>Asthma Attack</h2>
+                <p><strong>Definition:</strong> Narrowing of the airways in the lungs...</p>
+                <p><strong>Precautions:</strong></p>
+                <ul>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div class="emergency-div">
+                <h2>Anaphylaxis</h2>
+                <p><strong>Definition:</strong> A severe allergic reaction...</p>
+                <p><strong>Precautions:</strong></p>
+                <ul>
+                    <li>...</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="emergency-div">
+                <h2>Broken Bones</h2>
+                <p><strong>Definition:</strong> A fracture or break in a bone...</p>
+                <p><strong>Precautions:</strong></p>
+                <ul>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div class="emergency-div">
+                <h2>Burns</h2>
+                <p><strong>Definition:</strong> Injury to the skin caused by heat, chemicals, or electricity...</p>
+                <p><strong>Precautions:</strong></p>
+                <ul>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div class="emergency-div">
+                <h2>Choking</h2>
+                <p><strong>Definition:</strong> Obstruction of the airway...</p>
+                <p><strong>Precautions:</strong></p>
+                <ul>
+                    <li>...</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="emergency-div">
+                <h2>Drowning</h2>
+                <p><strong>Definition:</strong> Suffocation due to submersion in liquid...</p>
+                <p><strong>Precautions:</strong></p>
+                <ul>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div class="emergency-div">
+                <h2>Electric Shock</h2>
+                <p><strong>Definition:</strong> Injury caused by contact with electricity...</p>
+                <p><strong>Precautions:</strong></p>
+                <ul>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div class="emergency-div">
+                <h2>Heatstroke</h2>
+                <p><strong>Definition:</strong> Condition caused by excessive heat exposure...</p>
+                <p><strong>Precautions:</strong></p>
+                <ul>
+                    <li>...</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="emergency-div">
+                <h2>Hypothermia</h2>
+                <p><strong>Definition:</strong> Abnormally low body temperature...</p>
+                <p><strong>Precautions:</strong></p>
+                <ul>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div class="emergency-div">
+                <h2>Insect Bites and Stings</h2>
+                <p><strong>Definition:</strong> Bites or stings from insects...</p>
+                <p><strong>Precautions:</strong></p>
+                <ul>
+                    <li>...</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+   
+</body>
+</html>

@@ -25,8 +25,14 @@
   
   </div>
   <div class="section-container">
-    <div class="section-box" onclick="showHospitals('east-delhi')">
+    <div class="section-box" >
+        <script>
+            function switchToindex2() {
+                window.location.href = "index2.html";
+            }
+        </script>
       <h2>East Delhi Hospitals</h2>
+      
     </div>
     <div class="section-box" onclick="showHospitals('west-delhi')">
       <h2>West Delhi Hospitals</h2>
@@ -39,13 +45,10 @@
     </div>
   </div>
 </section>
+<footer>
+    <p>&copy; Quick MedHum. All rights reserved.</p>
+</footer>
 
-
-  <div id="hospital-list" class="hospital-list">
-    <h2 id="hospital-region-title"></h2>
-    <ul id="hospital-items"></ul>
-  </div>
-
-  <script src="script.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>
